@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>devcomp</title>
+    <script>
+        window.API = {
+            ELECTRON: require('electron')
+        };
+    </script>
+    <script src="https://jsonrep.github.io/jsonrep/dist/jsonrep.js"></script>
+    <style>
+      HTML,
+      BODY,
+      DIV#devcomp {
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <link type="text/css" rel="stylesheet" href="http://localhost:8080/dist/golden-layout/goldenlayout-base.css" />
+    <link type="text/css" rel="stylesheet" href="http://localhost:8080/dist/golden-layout/goldenlayout-dark-theme.css" />
+
+
+    <div id="devcomp" renderer="jsonrep">{ "@http://localhost:8080/dist/devcomp": {} }</div>
+
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "github.com~devcomp~io.devcomp.workspace",
+  "version": "0.0.0",
+  "bin": {
+    "devcomp": "bin/devcomp.sh"
+  },
+  "dependencies": {
+    "bash.origin": "^0.1.60",
+    "bash.origin.test": "^0.1.31",
+    "golden-layout": "^1.5.8",
+    "jquery": "^3.2.1"
+  },
+  "scripts": {
+    "test": "BO_ROOT_SCRIPT_PATH=$(pwd)/node_modules/bash.origin/bash.origin bash.origin.test Examples"
+  }
+}

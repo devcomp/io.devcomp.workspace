@@ -1,0 +1,6 @@
+{
+    "name": "devcomp",
+    "version": "0.0.0",
+    "description": "Developer Companion Workspace",
+    "main": "devcomp.app.js"
+}
